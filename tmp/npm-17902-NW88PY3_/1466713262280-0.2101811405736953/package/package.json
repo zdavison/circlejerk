@@ -1,0 +1,41 @@
+{
+  "name": "le-table",
+  "version": "4.0.0",
+  "description": "Another NodeJS module for creating ASCII tables.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IonicaBizau/node-le-table.git"
+  },
+  "contributors": [
+    "Adam Paszke <gracz1500@gmail.com>"
+  ],
+  "keywords": [
+    "table",
+    "ascii",
+    "node",
+    "cli"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "license": "KINDLY",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/node-le-table/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/node-le-table",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "cli-box": "5.0.0",
+    "overlap": "2.0.0",
+    "ul": "5.0.0"
+  },
+  "blah": {
+    "h_img": "http://i.imgur.com/BKXaFAa.png",
+    "ex_img": "http://i.imgur.com/DwyCfWo.png"
+  },
+  "devDependencies": {}
+}

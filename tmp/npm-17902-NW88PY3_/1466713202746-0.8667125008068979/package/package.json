@@ -1,0 +1,32 @@
+{
+  "name": "couleurs",
+  "version": "2.0.0",
+  "description": "Add some color and styles to your Node.JS strings.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IonicaBizau/couleurs"
+  },
+  "keywords": [
+    "colors",
+    "ascii",
+    "256",
+    "terminal"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/couleurs/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/couleurs",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "x256": "~0.0.1"
+  },
+  "devDependencies": {}
+}

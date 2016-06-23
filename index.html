@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html>
+<head>
+<title>Das Ende des Internets</title>
+<style type="text/css">
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: #2d2d2d url('/ende.png') no-repeat center;
+}
+body, a {
+  color: #fff;
+  font-family: "Helvetica";
+  font-size: 13px;
+}
+form {
+  background: #2d2d2d;
+  position: absolute;
+  overflow: hidden;
+  line-height: 2em;
+  padding: 5px;
+  bottom: 0px;
+  right: 0px;
+}
+label {
+  clear: both;
+  float: right;
+}
+span {
+  float: left;
+  padding-right: 5px;
+  text-align: right;
+  width: 8em;
+}
+input {
+  float: left;
+  margin-top: 3px;
+}
+input.text {
+  border: 1px solid #111;
+  padding: 2px;
+  width: 10em;
+}
+input.submit {
+  clear: both;
+  float: right;
+}
+h2 {
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0px;
+  text-align: right;
+}
+p {
+  display: none;
+}
+</style>
+<script type="text/javascript">var _gaq=[["_setAccount","UA-34098364-1"],["_setDomainName","endoftheinter.net"],["_trackPageview"]];(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)})()</script></head>
+<body onload="document.getElementsByTagName('input')[0].focus();">
+<p>Sie haben das Ende des Internets erreicht. Geben Sie bitte Ihre Anmeldeinformationen ein, um fortzufahren.</p>
+<form action="/" method="post">
+    <label><span>Benutzername:</span><input class="text" name="b" /></label>
+  <label><span>Passwort:</span><input class="text" type="password" name="p" /></label>
+  <input type="hidden" name="r" value="" />
+  <input class="submit" type="submit"  value="Anmelden" />
+</form>
+</body>
+</html>

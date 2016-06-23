@@ -1,0 +1,47 @@
+{
+  "name": "bug-killer",
+  "version": "4.2.3",
+  "description": "Simple way to log messages in stdout or other stream.",
+  "main": "lib/index.js",
+  "dependencies": {
+    "couleurs": "5.0.0",
+    "ansi-parser": "3.0.0",
+    "deffy": "2.0.0",
+    "typpy": "2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node example/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IonicaBizau/node-bug-killer.git"
+  },
+  "keywords": [
+    "bugs",
+    "debug",
+    "killer",
+    "node"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/node-bug-killer/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/node-bug-killer",
+  "directories": {
+    "example": "example"
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "scripts/",
+    "cli.js",
+    "index.js"
+  ]
+}

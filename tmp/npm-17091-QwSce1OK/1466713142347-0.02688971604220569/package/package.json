@@ -1,0 +1,39 @@
+{
+  "name": "clp",
+  "version": "3.2.1",
+  "description": "A tiny and fast command line arguments parser and help generator.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IonicaBizau/node-clp.git"
+  },
+  "keywords": [
+    "clp",
+    "command",
+    "line",
+    "arguments",
+    "parser"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/node-clp/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/node-clp",
+  "dependencies": {
+    "ul": "5.0.0",
+    "le-table": "4.0.0",
+    "ansi-parser": "2.0.0"
+  },
+  "devDependencies": {},
+  "blah": {
+    "h_img": "http://i.imgur.com/Gcn3nvW.png"
+  }
+}
